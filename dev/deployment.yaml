@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-greeter-api
-        image: vgichira/simple_greeter-api:latest
+        image: vgichira/simple-greeter-api:0a66aa254665b736517a8b275a70a946c9a2b343
         ports:
         - containerPort: 3000
         resources:
